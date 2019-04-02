@@ -3,6 +3,7 @@
 }
 
 body {
-  background-color: #282c34;
+  background-color: #8a8a8a;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
   min-height: 100vh;
 }

@@ -1,0 +1,29 @@
+.sidebar {
+    background-color: #2f353a;
+    color: white;
+    height: calc(100vh - 55px);
+    width: 200px;
+    text-align: left;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar span {
+    font-weight: 700;
+    font-size: 80%;
+    text-transform: uppercase;
+    padding: 0.2em 20px;
+}
+
+.sidebar .nav-link {
+    transition: background-color 200ms;
+    padding: 0.5em 20px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgb(37, 117, 128);
+    transition: background-color 200ms;
+}
