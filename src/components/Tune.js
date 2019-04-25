@@ -10,8 +10,10 @@ class Tune extends Component {
         return (
             <Container fluid>
             <Row>
-                <Sidebar md={2}>{this.props.name} Test1</Sidebar>
-                <Col md={9}>Test</Col>
+                <Col md={2} className="px-0">
+                    <Sidebar>{this.props.name} Test1</Sidebar>
+                </Col>
+                <Col md={8}>Test</Col>
             </Row>
             </Container>
         )

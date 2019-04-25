@@ -28,9 +28,9 @@ function Navigation() {
                             <NavDropdown.Item as={Link} to="/tune/edit">Edit Tune</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
-                    <Form inline>
+                    <Form inline className="mt-2 mt-md-0">
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="outline-success">Search Tune</Button>
+                        <Button variant="outline-success" className="my-2 my-sm-0">Search Tune</Button>
                     </Form>
                 </Navbar.Collapse>
             </Container>
